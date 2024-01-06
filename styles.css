@@ -1,3 +1,15 @@
+
+.navbar-brand img{
+    max-width: 35px;
+    max-height: auto;
+}
+
+h1{
+    background-image:  linear-gradient(to right, #a8c0ff, #3f2b96);
+    background-clip: text;
+    color: transparent;
+}
+
 #carouselExampleIndicators{
     width: 500px;
     display: flex;
@@ -16,6 +28,11 @@
 .carousel-text{
     max-width: 500px;
 }
+
+/* .p-3.mb-4.bg-dark.border-0{
+    background-color: black;
+} */
+
 
 
 
