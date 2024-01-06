@@ -1,0 +1,38 @@
+#carouselExampleIndicators{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+}
+
+.carousel-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.carousel-text{
+    max-width: 500px;
+}
+
+
+
+
+/* responsiveness */
+@media (max-width: 780px) {
+
+    #carouselExampleIndicators{
+        max-height: 300px ;
+        max-width: 300px;
+    }
+
+    .carousel-section{
+        display: grid;
+    }
+
+    #p2, #p3, #p4{
+        display: none;
+    } 
+}
