@@ -29,12 +29,9 @@ h1{
     max-width: 500px;
 }
 
-/* .p-3.mb-4.bg-dark.border-0{
-    background-color: black;
-} */
-
-
-
+#btn-div{
+    border: 1px solid black;
+}
 
 
 /* responsiveness */
