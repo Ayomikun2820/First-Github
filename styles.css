@@ -1,8 +1,9 @@
 #carouselExampleIndicators{
-    max-width: 500px;
+    width: 500px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    max-height: 500px;
+    height: 500px;
 }
 
 .carousel-section{
@@ -24,12 +25,13 @@
 @media (max-width: 780px) {
 
     #carouselExampleIndicators{
-        max-height: 300px ;
+        max-height: 300px;
         max-width: 300px;
     }
 
     .carousel-section{
         display: grid;
+        margin: 0px;
     }
 
     #p2, #p3, #p4{
